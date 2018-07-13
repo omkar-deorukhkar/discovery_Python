@@ -2,7 +2,6 @@ import zipfile as zp
 from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox
-#import tkMessageBox
 
 root = Tk()
 f_name = filedialog.askopenfilename(filetypes = (("howCode files", ".hc"),("All files","*.*")))
